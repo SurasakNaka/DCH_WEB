@@ -1,0 +1,352 @@
+﻿.TittleText
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	text-align: right;
+	vertical-align: top;
+}
+.TittleTextAllgnleft
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	text-align: left;
+}
+.TextField
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	vertical-align: top;
+	margin-left: 0px;
+}
+.ddlReadOnly
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+	background-color: #FFFFCC;
+	color: #000000;
+}
+.LabelField
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	vertical-align: middle;
+}
+.TextAlert
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+	color: Red;
+}
+.TitleGroupBoxText
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.TitleFormName
+{
+	font-family: Tahoma;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.BackgroundFilter
+{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+	filter: alpha(opacity=80);
+	opacity: 0.9;
+	z-index: 1000;
+}
+
+#Popup
+{
+	position: absolute;
+	top: 80%;
+	left: 43%;
+	padding: 10px;
+	width: 14%;
+	z-index: 1001;
+}
+
+#PopupX
+{
+	position: absolute;
+	top: 80%;
+	left: 30%;
+	padding: 10px;
+	width: 14%;
+	z-index: 1001;
+}
+
+.txtWaterMark
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-style: italic;
+	color: #999999;
+}
+
+.txtRequired
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	color: #FF0000;
+}
+
+.txtReadOnly
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+	background-color: #FFFFCC;
+}
+
+.txtChangable
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+	background-color: #FFFFFF;
+}
+
+.chkReadOnly
+{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7F9DB9;
+	background-color: #FFFFCC;
+}
+
+/*--  Mee  --*/
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #999;
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border: 1px solid #999;
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #e0e0e0;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 20px;
+	border: 1px solid #fff; /*--Gives the bevel look with a 1px white border inside the list item--*/
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: #ccc;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #fff;
+	border-bottom: 1px solid #fff; /*--Makes the active tab look like it's connected with its content--*/
+}
+
+.tab_container {
+	border: 1px solid #999;
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; width: 100%;
+	background: #fff;
+}
+.tab_content {
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+div#AdjResultsDiv { 
+width: 1035px; 
+height: 65px; 
+overflow: scroll; 
+position: relative; 
+}
+
+div#AdjResultsDiv th 
+{   
+top: expression(document.getElementById("AdjResultsDiv").scrollTop-1); 
+left: expression(parentNode.parentNode.parentNode.parentNode.scrollLeft); 
+position: relative; 
+z-index: 20; 
+}
+
+/*GridView*/
+.gvMain
+{
+    background-color:White; /*BackColor:White;*/
+    border-color:#999999; /*BorderColor:#999999;*/
+    border-style:none; /*BorderStyle="None" */
+    border-width:1px; /*BorderWidth="1px" */
+    font-family:Tahoma; /*Font-Names="Tahoma"*/
+    font-size:10pt; /*Font-Size="10pt"*/ 
+}
+.gvAlternateRow
+{
+    background-color:#EEEEEE; /*BackColor="#EEEEEE"*/
+}
+.gvFooter
+{
+    background-color:#CCCCCC; /*BackColor="#CCCCCC"*/ 
+    color:Black; /*ForeColor="Black"*/
+}
+.gvHeader
+{
+    background-color:#000084; /*BackColor="#000084"*/ 
+    font-weight:bold; /*Font-Bold="True"*/ 
+    color:White; /*ForeColor="White"*/
+}
+.gvPager
+{
+    background-color:#999999; /*BackColor="#999999"*/ 
+    color:Black; /*ForeColor="Black"*/ 
+    text-align:center; /*HorizontalAlign="Center"*/
+}
+.gvRows
+{
+    background-color:#EEEEEE; /*BackColor="#EEEEEE"*/ 
+    color:Black; /*ForeColor="Black"*/
+}
+.gvSelectRow
+{
+    background-color:#008A8C; /*BackColor="#008A8C"*/ 
+    font-weight:bold; /*Font-Bold="True"*/ 
+    color:White; /*ForeColor="White"*/
+}
+.gvHeaderRowStyle
+{
+ font-family:Tahoma;
+ font-size:9pt;
+ text-align:center;
+}
+.gvItemRowTextStyle
+{
+ font-family:Tahoma;
+ font-size:9pt;
+ text-align:left;
+}
+.gvItemRowMoneyStyle
+{
+ font-family:Tahoma;
+ font-size:9pt;
+ text-align:right;
+}
+/*GridView*/
+
+/*AutoCompleteStyle*/
+ .autocomplete_highlightedListItem { background-color: #ffff99; color: black; padding: 1px; }
+
+.autocomplete_listItem {
+  visibility  : hidden;
+    margin : 8px! important; 
+   background-color  : inherit; 
+    color : black; 
+    border : solid 1px gray; 
+    cursor : pointer; 
+    text-align : left; 
+  list-style-type : none;
+    font-family : Tahoma; 
+    font-size: 12px; 
+    padding : 0;  
+    overflow:auto;
+    /*height:60px;*/
+    }
+
+.autocomplete_completionListElement {
+    /*background-color: #c3ebf9; visibility  : hidden;*/
+    background-color: inherit; 
+    border : none; 
+    padding : 1px; 
+    overflow:auto;
+     /*height:60px;*/
+ }
+     
+.listItem 
+{ 
+    background-color: white; 
+    padding : 1px; 
+  
+}   
+/*AutoCompleteStyle*/
+
+/*ModalPopupExtender*/
+.popupConfirmation
+{
+	width: 350px;
+	height: 200px;
+}
+.popup_Container {
+	background-color:#fffeb2;
+	border:2px solid #000000;
+	padding: 0px 0px 0px 0px;
+}
+.popup_Titlebar {
+	/*background:	url(~/image/titlebar_bg.jpg);*/
+	height: 30px;
+}
+
+.TitlebarLeft 
+{
+	float:left;
+	padding-left:5px;
+	padding-top:5px;
+	font-family:Tahoma, sans-serif;
+	font-weight:bold;
+	font-size:12px;
+	color:Black
+}
+.TitlebarRight 
+{
+	background:url(Images/cross_icon_normal.png);
+	background-position:right;
+	background-repeat:no-repeat;
+	height:15px;
+	width:16px;
+	float:right;
+	cursor:pointer;
+	margin-right:5px;
+	margin-top:5px;
+}
+.popup_Body
+{
+	padding:5px 5px 5px 5px;
+	font-family:Tahoma;
+	font-weight:normal;
+	font-size:12px;
+	color:#000000;
+	line-height:15pt;
+	clear:both;
+	padding:10px;
+	text-align:left;
+}
+.popup_Buttons
+{
+	margin:10px;
+}
+/*ModalPopupExtender*/

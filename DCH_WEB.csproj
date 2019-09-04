@@ -1,0 +1,278 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7895A335-6FA3-4AB4-A003-B58F985FE715}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DCH_WEB</RootNamespace>
+    <AssemblyName>DCH_WEB</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44368</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.20229.20821, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ClassFunction_Eform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ClassFunction_Eform.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentArt.Web.UI, Version=3.0.1525.3145, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ComponentArt.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel, Version=2.0.1.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Office.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="expense\MedicalCreate.aspx" />
+    <Content Include="Index\Index.aspx" />
+    <Content Include="masterpage\msp_main.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\ClassFunction_Eform.dll" />
+    <Content Include="bin\ComponentArt.Web.UI.dll" />
+    <Content Include="bin\DCH_WEB.dll" />
+    <Content Include="bin\DCH_WEB.pdb" />
+    <Content Include="bin\Excel.dll" />
+    <Content Include="bin\Microsoft.SharePoint.dll" />
+    <Content Include="bin\Office.dll" />
+    <Content Include="HR_Stylesheet\HR_StyleMenu.css" />
+    <None Include="bin\DCH_WEB.dll.config" />
+    <None Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="image\15.jpg" />
+    <Content Include="image\43_02.jpg" />
+    <Content Include="image\add.png" />
+    <Content Include="image\arrow.gif" />
+    <Content Include="image\attach.png" />
+    <Content Include="image\attention.bmp" />
+    <Content Include="image\background.jpg" />
+    <Content Include="image\background_.jpg" />
+    <Content Include="image\bg-bar3-l.png" />
+    <Content Include="image\bg-bar3-m.png" />
+    <Content Include="image\bg-bar3-r.png" />
+    <Content Include="image\bg-bar3-r2.png" />
+    <Content Include="image\bg-bar4-l.png" />
+    <Content Include="image\bg-bar4-m.gif" />
+    <Content Include="image\bg-bar4-r.png" />
+    <Content Include="image\bg-bar5-l.gif" />
+    <Content Include="image\bg-bar5-r.gif" />
+    <Content Include="image\bg-logo.gif" />
+    <Content Include="image\bg.gif" />
+    <Content Include="image\bg01.bmp" />
+    <Content Include="image\bg03.bmp" />
+    <Content Include="image\bg1.gif" />
+    <Content Include="image\bgMenu.gif" />
+    <Content Include="image\bgMenu1.gif" />
+    <Content Include="image\bg_header.gif" />
+    <Content Include="image\bg_logo.gif" />
+    <Content Include="image\bt-bar1-r.gif" />
+    <Content Include="image\bt-bar2-l.gif" />
+    <Content Include="image\bt-bar2-r.gif" />
+    <Content Include="image\bt-bar3-l.gif" />
+    <Content Include="image\bt-bar3-r.gif" />
+    <Content Include="image\bt-bar4-r.gif" />
+    <Content Include="image\cancel-16.png" />
+    <Content Include="image\cbg.jpg" />
+    <Content Include="image\cmglogo.gif" />
+    <Content Include="image\construction.jpg" />
+    <Content Include="image\copy5.gif" />
+    <Content Include="image\edit-icon.png" />
+    <Content Include="image\gball.gif" />
+    <Content Include="image\header02.gif" />
+    <Content Include="image\header03.gif" />
+    <Content Include="image\header05_1.gif" />
+    <Content Include="image\icon-edit.png" />
+    <Content Include="image\icon.gif" />
+    <Content Include="image\icon.png" />
+    <Content Include="image\icon1.png" />
+    <Content Include="image\icon3.png" />
+    <Content Include="image\icon_cancel.gif" />
+    <Content Include="image\icon_check.gif" />
+    <Content Include="image\icon_check.jpg" />
+    <Content Include="image\icon_check_.jpg" />
+    <Content Include="image\icon_find.gif" />
+    <Content Include="image\icon_find1.png" />
+    <Content Include="image\icon_minus1.png" />
+    <Content Include="image\icon_plus.png" />
+    <Content Include="image\icon_save.png" />
+    <Content Include="image\icon_save_.gif" />
+    <Content Include="image\imgBG.png" />
+    <Content Include="image\imgBG1.png" />
+    <Content Include="image\imgclose.png" />
+    <Content Include="image\imgcmg.jpg" />
+    <Content Include="image\imgEdit.png" />
+    <Content Include="image\imgInformation.png" />
+    <Content Include="image\imgL.png" />
+    <Content Include="image\imgLogo.png" />
+    <Content Include="image\img_error.png" />
+    <Content Include="image\loading.gif" />
+    <Content Include="image\lock.png" />
+    <Content Include="image\lock_detail.png" />
+    <Content Include="image\lock_off.png" />
+    <Content Include="image\logo.gif" />
+    <Content Include="image\logo1.gif" />
+    <Content Include="image\logo2.gif" />
+    <Content Include="image\logo_adv.gif" />
+    <Content Include="image\logo_exp.gif" />
+    <Content Include="image\logo_hr.gif" />
+    <Content Include="image\main.gif" />
+    <Content Include="image\main.swf" />
+    <Content Include="image\main1.gif" />
+    <Content Include="image\main2.gif" />
+    <Content Include="image\main_adv.gif" />
+    <Content Include="image\main_exp.gif" />
+    <Content Include="image\main_hr.gif" />
+    <Content Include="image\menuItem.gif" />
+    <Content Include="image\menuSubItem.gif" />
+    <Content Include="image\new-item-icon.png" />
+    <Content Include="image\nopermission.png" />
+    <Content Include="image\paste1.png" />
+    <Content Include="image\shadow-left-top.gif" />
+    <Content Include="image\space.gif" />
+    <Content Include="image\warning.png" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <None Include="Scripts\jquery-1.4.1.min-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-latest.js" />
+    <Content Include="Scripts\jquery-ui-1.8.5.custom.min.js" />
+    <Content Include="Scripts\jquery-ui-gray.css" />
+    <Content Include="Scripts\jquery.bgiframe.js" />
+    <Content Include="StyleSheet\e-Form_StylePopup.css" />
+    <Content Include="StyleSheet\e-Form_StyleSheet.css" />
+    <Content Include="StyleSheet\e-Form_StyleSitemap.css" />
+    <Content Include="StyleSheet\StyleSheet.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassLibary\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClassLibary\Menu.cs" />
+    <Compile Include="ClassLibary\Myfunction.cs" />
+    <Compile Include="ClassLibary\RoleUser.cs" />
+    <Compile Include="expense\MedicalCreate.aspx.cs">
+      <DependentUpon>MedicalCreate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="expense\MedicalCreate.aspx.designer.cs">
+      <DependentUpon>MedicalCreate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage\msp_main.Master.cs">
+      <DependentUpon>msp_main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage\msp_main.Master.designer.cs">
+      <DependentUpon>msp_main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53822</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44368/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

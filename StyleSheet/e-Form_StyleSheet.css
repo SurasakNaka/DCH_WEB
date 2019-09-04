@@ -1,0 +1,149 @@
+﻿
+.LinkButton_Style
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	color: #363636;
+}
+
+.ListBox_Style
+{
+	color: #696969;
+	font-size: 10pt;
+	font-family: Tahoma;
+	background-color: #FFFFE0;
+}
+
+
+.Label_ShowRight_Style
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	color: #363636;
+	text-align: right;
+}
+
+.Label_ShowLeft_Style
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	color: #363636;
+	text-align: left;
+}
+
+.Label_Fieldset_Style
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #4169E1;
+}
+
+.Label_Remark_Style
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	text-align: center;
+}
+
+.DropDownList_Style
+{
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.Grid_Header_Style
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	background-color: #8B2500;
+	vertical-align: middle;
+	text-align: center;
+	height: 30px;
+	position: relative;
+	top: expression(parentNode.parentNode.parentNode.parentNode.scrollbottom);
+	z-index: 0;
+}
+
+.Grid_Footer_Style
+{
+	font-weight: bold;
+	color: #000066;
+	background-color: #cccccc;
+	height: 30px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+}
+
+.Grid_Items_Style
+{
+	color: #696969;
+	font-size: 10pt;
+	font-family: Tahoma;
+	background-color: #FFFFFF;
+	height: 20px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+}
+
+.Grid_Alternate_Style
+{
+	color: #696969;
+	font-size: 10pt;
+	font-family: Tahoma;
+	background-color: #FFFFE0;
+	height: 20px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+}
+
+.Grid_Selected_Style
+{
+	color: #000066;
+	font-weight: bold;
+	background-color: #D3D3D3;
+	height: 20px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 2px;
+}
+
+.Button-Style
+{
+	border-style: groove;
+	cursor: hand;
+	color: #666666;
+	height: 26px;
+}
+
+.Button-Comment-Style
+{
+	background-color: #FFCC00;
+	font-weight: bold;
+	font-family: Tahoma;
+	font-size: 9px;
+	color: Black;
+	height: 22px;
+	width: 110px;
+}
+
+.TextBox-Style
+{
+	border-left: #88b4c8 1pt solid;
+	border-right: #88b4c8 1pt solid;
+	border-top: #88b4c8 1pt solid;
+	border-bottom: #88b4c8 1pt solid;
+	background: #FFFFFF;
+	color: #000080;
+	font-family: Tahoma;
+}

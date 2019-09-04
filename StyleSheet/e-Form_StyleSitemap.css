@@ -1,0 +1,64 @@
+﻿/* ====================================
+SiteMap Style
+======================================= */
+
+a.SiteMapPathRootNodeStyle:link, a.SiteMapPathRootNodeStyle:visited, a.SiteMapPathRootNodeStyle:active
+{
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: Navy;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.SiteMapPathRootNodeStyle:hover
+{
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: Red;
+	/*font-weight: bold;*/
+	text-decoration: none;
+}
+
+.SiteMapPathCurrentNodeStyle
+{
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: Dimgray;
+	/*font-weight: bold;*/
+}
+
+.SiteMapPathNodeStyle
+{
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #696969;
+	/*font-weight: bold;*/
+}
+
+a.SiteMapPathNodeStyle, a.SiteMapPathNodeStyle:link, a.SiteMapPathNodeStyle:visited, a.SiteMapPathNodeStyle:active
+{
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #696969;
+	/*font-weight: bold;*/
+	text-decoration: none;
+}
+
+a.SiteMapPathNodeStyle:hover
+{
+	font-family: tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: red;
+	/*font-weight: bold;*/
+	text-decoration: none;
+}
+
+
+.SiteMapPathSeparatorStyle
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	/*font-weight: bold;*/
+	color: darkblue;
+}

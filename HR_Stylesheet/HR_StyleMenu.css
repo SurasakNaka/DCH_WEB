@@ -1,0 +1,198 @@
+﻿.TopGroup
+{
+	cursor: default;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.MenuGroup
+{
+    background-color: WhiteSmoke;
+    border:1px #4E5358 solid; 
+    border-style:solid;
+    cursor:default;    
+    z-index:3000;
+}
+
+.TopMenuItem
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: #FFFFFF;
+	font-family: tahoma;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.TopMenuItemHover
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: #FF8C00;
+	font-family: tahoma;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.TopMenuItem2
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: #53868B;
+	font-family: tahoma;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.TopMenuItemHover2
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: #8B2500;
+	font-family: tahoma;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.MenuItem
+{
+	font-weight: bold;
+	border-right: #f5f5f5 1px solid;
+	border-top: #f5f5f5 1px solid;
+	font-size: 9pt;
+	border-left: #f5f5f5 1px solid;
+	cursor: hand;
+	color: #53868B;
+	border-bottom: #f5f5f5 1px solid;
+	font-family: tahoma;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.MenuItemHover
+{
+	font-weight: bold;
+	border-right: #aadaed 1px solid;
+	border-top: #aadaed 1px solid;
+	font-size: 9pt;
+	background-image: url(../image/bgMenu.gif);
+	border-left: #aadaed 1px solid;
+	cursor: hand;
+	color: #FFFFFF;
+	border-bottom: #aadaed 1px solid;
+	font-family: tahoma;
+	background-color: #48D1CC;
+    z-index:3000;
+}
+
+.DisabledMenuItem
+{
+	font-weight: bold;
+    border: 1px solid #F5F5F5; 
+    color:Gray;
+    font-family:tahoma; 
+    font-size:9pt; 
+    cursor:default; 
+    z-index:3000;
+}
+
+.DisabledMenuItemHover 
+{
+    border: 1px solid #F5F5F5; 
+    color:Gray;
+    font-family:tahoma; 
+    font-size:9pt; 
+    cursor:default; 
+    font-weight: bold;
+    z-index:3000;
+}
+
+.SelectMenuItem
+{
+	border-right: #f5f5f5 1px solid;
+	border-top: #f5f5f5 1px solid;
+	font-size: 9pt;
+	border-left: #f5f5f5 1px solid;
+	font-weight: bold;
+	cursor: hand;
+	color: #53868B;
+	border-bottom: #f5f5f5 1px solid;
+	font-family: tahoma;
+	background-color: Orange;
+    z-index:3000;
+}
+
+.SelectMenuItemHover
+{
+	border-right: #f5f5f5 1px solid;
+	border-top: #f5f5f5 1px solid;
+	font-size: 9pt;
+	border-left: #f5f5f5 1px solid;
+	cursor: hand;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-bottom: #f5f5f5 1px solid;
+	font-family: tahoma;
+	background-color:  #FF8C00 ;
+    z-index:3000;
+}
+
+.SelectTopMenuItem
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: White;
+	font-family: tahoma;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.SelectTopMenuItemHover
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: White;
+	font-family: tahoma;
+	background-color: transparent;
+	z-index: 2000;
+}
+
+.SelectTopMenuItem2
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: #FFEC8B;
+	font-family: tahoma;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.SelectTopMenuItemHover2
+{
+	font-weight: bold;
+	font-size: 9pt;
+	cursor: hand;
+	color: #191970;
+	font-family: tahoma;
+	background-color: transparent;
+    z-index:3000;
+}
+
+.MenuBreak
+{
+    background-image:url(../image/break.gif);
+    width:100%;
+    height:2px;
+    font-weight: bold;
+    z-index:3000;
+}
+
+
+

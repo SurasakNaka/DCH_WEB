@@ -1,0 +1,51 @@
+﻿.Popup-Style
+{
+    width: 900px;
+    height: 500px;
+    border: solid 1px #808080;
+    border-width: 1px 0px;
+} 
+
+.Popup-Style2
+{
+    width: 900px;
+    height: 550px;
+    border: solid 1px #808080;
+    border-width: 1px 0px;
+} 
+
+
+.Popup-close
+{
+   	background: url(../images/imgclose.png);
+    right: -8px;	
+    width: 32px;	
+    cursor: pointer;	
+    position: absolute;	
+    top: -8px;	
+    height: 32px; 
+}
+
+.Panel-Style
+{
+	width: 950px;
+	height: 450px;
+	text-align: left;
+}
+
+
+.Popup-body
+{
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-family: Tahoma;
+	font-size: small;
+	border-bottom: #808080 1px solid;
+	border-left: #808080 1px solid;
+	padding-right: 10px;
+	border-top: #808080 1px solid;
+	border-right: #808080 1px solid;
+} 
+
