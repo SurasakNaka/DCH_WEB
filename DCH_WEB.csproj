@@ -16,7 +16,7 @@
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44368</IISExpressSSLPort>
-    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
     <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
@@ -165,7 +165,6 @@
     <Content Include="image\imgBG.png" />
     <Content Include="image\imgBG1.png" />
     <Content Include="image\imgclose.png" />
-    <Content Include="image\imgcmg.jpg" />
     <Content Include="image\imgEdit.png" />
     <Content Include="image\imgInformation.png" />
     <Content Include="image\imgL.png" />
@@ -183,11 +182,6 @@
     <Content Include="image\logo_hr.gif" />
     <Content Include="image\main.gif" />
     <Content Include="image\main.swf" />
-    <Content Include="image\main1.gif" />
-    <Content Include="image\main2.gif" />
-    <Content Include="image\main_adv.gif" />
-    <Content Include="image\main_exp.gif" />
-    <Content Include="image\main_hr.gif" />
     <Content Include="image\menuItem.gif" />
     <Content Include="image\menuSubItem.gif" />
     <Content Include="image\new-item-icon.png" />
